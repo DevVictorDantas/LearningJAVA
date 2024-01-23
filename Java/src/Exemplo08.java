@@ -2,10 +2,11 @@ public class Exemplo08 {
   public static void main(String[] args) {
 
     int numero = 1;
-
-    while (numero <= 5) {
+    do
+    {
       System.out.println(numero);
-      numero++;
-    }
+    numero++;
+    }    
+    while (numero <= 5);
   }
 }
